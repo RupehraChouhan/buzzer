@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rupehra.buzzer" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TwoPlayerActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".FourPlayerActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".ThreePlayerActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".GameShowBuzzerActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".ReactionTimerActivity"
+            android:label="@string/app_name" >
+        </activity>
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+        </intent-filter>
+
+        <activity
+            android:name=".Instructions"
+            android:label="@string/title_activity_instructions" >
+        </activity>
+        <activity
+            android:name=".ClickedEarlyActivity"
+            android:label="@string/title_activity_clicked_early" >
+        </activity>
+        <activity
+            android:name=".RestartReactionActivity"
+            android:label="@string/title_activity_restart_reaction" >
+        </activity>
+        <activity
+            android:name=".StatisticsActivity"
+            android:label="@string/title_activity_statistics" >
+        </activity>
+        <activity
+            android:name=".DisplayCountActivity"
+            android:label="@string/title_activity_display_count" >
+        </activity>
+    </application>
+
+</manifest>

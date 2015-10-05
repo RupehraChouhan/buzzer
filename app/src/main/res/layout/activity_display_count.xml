@@ -1,0 +1,240 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#add8ff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="2 player mode:"
+        android:id="@+id/twoplayermodetextView"
+        android:textSize="20dp"
+        android:layout_below="@+id/buzzerStatsTextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="19dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="3 player mode:"
+        android:id="@+id/threeplayermodetextView"
+        android:textSize="20dp"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/P12TextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="4 player mode:"
+        android:id="@+id/fourplayermodetextView"
+        android:textSize="20dp"
+        android:layout_marginBottom="22dp"
+        android:layout_above="@+id/P24TextView"
+        android:layout_toLeftOf="@+id/P22TextView"
+        android:layout_toStartOf="@+id/P22TextView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Buzzer Stats"
+        android:id="@+id/buzzerStatsTextView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Player 1:"
+        android:id="@+id/P12TextView"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/twoplayermodetextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Player 2:"
+        android:id="@+id/P22TextView"
+        android:layout_alignTop="@+id/P12TextView"
+        android:layout_toEndOf="@+id/twoplayermodetextView"
+        android:layout_marginStart="28dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Player 1:"
+        android:id="@+id/P13TextView"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/threeplayermodetextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Player 2:"
+        android:id="@+id/P23TextView"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/P13TextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Player 3:"
+        android:id="@+id/P33TextView"
+        android:layout_below="@+id/P23TextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="19dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Player 1:"
+        android:id="@+id/P14TextView"
+        android:layout_marginTop="72dp"
+        android:layout_below="@+id/P33TextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Player 2:"
+        android:id="@+id/P24TextView"
+        android:layout_above="@+id/P34TextView"
+        android:layout_alignStart="@+id/P44TextView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Player 3:"
+        android:id="@+id/P34TextView"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/P14TextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Player 4:"
+        android:id="@+id/P44TextView"
+        android:layout_alignTop="@+id/P34TextView"
+        android:layout_alignStart="@+id/P22TextView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="0"
+        android:id="@+id/P12Count"
+        android:layout_alignTop="@+id/P12TextView"
+        android:layout_toEndOf="@+id/P12TextView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="0"
+        android:id="@+id/P22Count"
+        android:layout_alignTop="@+id/P22TextView"
+        android:layout_toEndOf="@+id/P22TextView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="0"
+        android:id="@+id/P13Count"
+        android:layout_alignTop="@+id/P13TextView"
+        android:layout_alignStart="@+id/P12Count" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="0"
+        android:id="@+id/P23Count"
+        android:layout_alignTop="@+id/P23TextView"
+        android:layout_toEndOf="@+id/P23TextView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="0"
+        android:id="@+id/P33Count"
+        android:layout_alignTop="@+id/P33TextView"
+        android:layout_toEndOf="@+id/P33TextView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="0"
+        android:id="@+id/P14Count"
+        android:layout_below="@+id/fourplayermodetextView"
+        android:layout_alignStart="@+id/P33Count" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="0"
+        android:id="@+id/P24Count"
+        android:layout_alignTop="@+id/P24TextView"
+        android:layout_alignStart="@+id/P22Count" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="0"
+        android:id="@+id/P34Count"
+        android:layout_alignTop="@+id/P34TextView"
+        android:layout_alignStart="@+id/P14Count" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="0"
+        android:id="@+id/P44Count"
+        android:layout_alignTop="@+id/P44TextView"
+        android:layout_alignStart="@+id/P24Count" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email Statistics"
+        android:id="@+id/emailButton"
+        android:onClick="estatsbtn"
+        android:background="#4877c5"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
